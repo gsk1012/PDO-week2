@@ -12,9 +12,6 @@ try {
     exit();
 }
 
-
-$stmt = $conn->query('SELECT version()');
-$version = $stmt->fetchColumn();
 echo "Connected to database of  '$dbname'";
 
 ?>
